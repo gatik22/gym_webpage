@@ -1,0 +1,110 @@
+
+body {
+    color: white;
+    background: url(cathy-pham-3jAN9InapQI-unsplash.jpg);
+    background-size: cover;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.left {
+
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.left img {
+    width: 75px;
+    height: 75px;
+    filter: invert(25%);
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    margin: 10px auto;
+    display: block;
+    width: 33%;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin: 2px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family: "Quicksand", sans-serif;
+    ;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+h2 {
+    color: cyan;
+    text-align: center;
+}
+
+.container {
+
+    border: 2px solid whitesmoke;
+    width: 25%;
+    height: 325px;
+    margin: 85px 6px;
+    border-radius: 8px;
+}
+
+.formgrp {
+    text-align: center;
+}
+
+.formgrp input {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    padding: 6px;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.container button {
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+}
+
